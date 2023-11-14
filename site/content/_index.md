@@ -1,20 +1,53 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
-intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
----
+# Banner
+banner:
+  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
+  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  image: "/images/banner.png"
+  button:
+    enable: true
+    label: "Get Started For Free"
+    link: "https://github.com/zeon-studio/hugoplate"
 
+# Features
+features:
+  - title: "What's Included in Hugoplate"
+    image: "/images/service-1.png"
+    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    bulletpoints:
+      - "10+ Pre-build pages"
+      - "95+ Google Pagespeed Score"
+      - "Build with Hugo and TailwindCSS for easy and customizable styling"
+      - "Fully responsive on all devices"
+      - "SEO-optimized for better search engine rankings"
+      - "**Open-source and free** for personal and commercial use"
+    button:
+      enable: false
+      label: "Get Started Now"
+      link: "#"
+
+  - title: "Discover the Key Features Of Hugo"
+    image: "/images/service-2.png"
+    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    bulletpoints:
+      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
+      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
+      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "https://github.com/zeon-studio/hugoplate"
+
+  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+    image: "/images/service-3.png"
+    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    bulletpoints:
+      - "Instantly load static sites for better user experience and SEO."
+      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
+      - "Use any front-end library or framework, or build custom components, for any project size."
+      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+    button:
+      enable: false
+      label: ""
+      link: ""
+---
